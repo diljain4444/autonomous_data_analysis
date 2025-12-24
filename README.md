@@ -94,7 +94,7 @@ The AI-generated code follows strict constraints:
 git clone https://github.com/your-username/autonomous-data-analysis.git
 cd autonomous-data-analysis
 pip install -r requirements.txt
-streamlit run frontend.py
+streamlit run main.py
 ```
 
 
