@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+matplotlib
+
+langchain
+langchain-core
+langchain-huggingface
+langgraph
+
+huggingface-hub
