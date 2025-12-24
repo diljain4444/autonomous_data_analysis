@@ -1,0 +1,7 @@
+# Ignore Python virtual environment
+autonomous/
+# Ignore cache
+__pycache__/
+*.pyc
+# Ignore local secrets
+.env

@@ -6,14 +6,14 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_core.prompts import PromptTemplate
 from data_analysis_backend import workflow
 
-st.title("AUTONOMOUS DATA ANALYSIS")
+st.title("AUTONOMOUS DATA ANALYSIs")
 
-# ========== SIDEBAR ==========
+# ========== SIDEBAR ===========
 st.sidebar.title("CHAT_BOT")
-st.sidebar.button("NEW CHAT")
+st.sidebar.button("NEWs CHAT")
 
 file = st.sidebar.file_uploader(
-    "UPLOAD YOUR CSV HERE",
+    "UPLOAD YOUR CSVs HERE",
     type=["csv"]
 )
 

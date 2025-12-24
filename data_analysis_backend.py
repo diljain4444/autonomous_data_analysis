@@ -3,9 +3,20 @@ from langchain_core.messages import HumanMessage,AIMessage,SystemMessage,BaseMes
 from langgraph.graph import StateGraph,START,END
 from langgraph.graph.message import add_messages
 from typing import Annotated,TypedDict
+import os
+from dotenv import load_dotenv
+import os
+
+# Load the .env file
+load_dotenv()
+
+hf_key=os.environ["HUGGINGFACEHUB_API_TOKEN"]
 
 
-llms=HuggingFaceEndpoint(repo_id="meta-llama/Llama-3.1-8B-Instruct")
+llms = HuggingFaceEndpoint(
+    repo_id="meta-llama/Llama-3.1-8B-Instruct",
+    huggingfacehub_api_token=hf_key
+)
 model=ChatHuggingFace(llm=llms)
 
 class state(TypedDict):
