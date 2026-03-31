@@ -9,7 +9,7 @@ from data_analysis_backend import workflow
 st.title("AUTONOMOUS DATA ANALYSIs")
 
 # ========== SIDEBAR ===========
-st.sidebar.title("CHAT_BOT")
+st.sidebar.title("CHAT_BOT_")
 st.sidebar.button("NEWs CHAT")
 
 file = st.sidebar.file_uploader(
